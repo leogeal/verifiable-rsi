@@ -1,8 +1,9 @@
 # Project Roadmap
 
-Long-term goal: build toward a Fully-Recursive Self-Improving system, defined
-as a system that can safely improve its own improvement machinery while
-preserving independent verification.
+Long-term goal: build toward a Fully-Recursive Self-Improving AGI/ASI System,
+defined as a generally intelligent, and potentially superintelligent, system
+that can safely improve its own improvement machinery while preserving
+independent verification.
 
 Current status: SRSI is a bounded, verifier-first scaffold-improvement harness.
 It can improve task strategies, but it does not yet improve the proposer,
@@ -10,11 +11,12 @@ strategy source code, tools, benchmark machinery, sandbox policy, verifier, or
 underlying model.
 
 The unsolved status of open-ended model-level or weight-level recursive
-self-improvement is not treated as evidence that it cannot be done. It is a
-central AGI/ASI research target for this project. The roadmap is organized to
-make any claimed breakthrough auditable: the project should move from bounded
-scaffold improvement toward stronger recursive capabilities only with
-independent verification, sandboxing, and human-gated authority control.
+self-improvement is not treated as evidence that it cannot be done. A
+fully-recursive self-improving AGI/ASI system is the central research target for
+this project. The roadmap is organized to make any claimed breakthrough
+auditable: the project should move from bounded scaffold improvement toward
+stronger recursive capabilities only with independent verification, sandboxing,
+and human-gated authority control.
 
 This roadmap lists practical milestones in the order they should be attempted.
 Each milestone should land with tests and run artifacts that demonstrate both

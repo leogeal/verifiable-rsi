@@ -1,16 +1,16 @@
 # Roadmap Beyond SRSI
 
 SRSI is an integrity-first scaffold-improvement harness whose long-term goal is
-a Fully-Recursive Self-Improving system. It is not an AGI or ASI system today,
-and it is not a recipe for turning a small benchmark optimizer into one by
-adding a few missing features. Its strongest design choice is also its current
-ceiling: the strategy scaffold may improve, while the trusted verifiers and
-enforcement code remain fixed.
+a Fully-Recursive Self-Improving AGI/ASI System. It is not an AGI or ASI system
+today, and it is not a recipe for turning a small benchmark optimizer into one
+by adding a few missing features. Its strongest design choice is also its
+current ceiling: the strategy scaffold may improve, while the trusted verifiers
+and enforcement code remain fixed.
 
 This document records what would be required to push the project toward that
-fully-recursive goal, and where the known open research problems begin. These
-problems are not treated as impossibility results. They are the research targets
-the project ultimately aims to address.
+fully-recursive AGI/ASI goal, and where the known open research problems begin.
+These problems are not treated as impossibility results. They are the research
+targets the project ultimately aims to address.
 For a stricter definition of what would justify calling a successor "fully
 recursive," see
 [`fully-recursive-self-improvement.md`](fully-recursive-self-improvement.md).
@@ -35,8 +35,9 @@ That is deliberate.
 
 ## Realistic Next Target
 
-The credible next target is not "fully recursively self-improving AGI/ASI." The
-credible target is a stronger sandboxed automated-research scaffold:
+The credible next target is not the full long-term goal of a fully-recursive
+self-improving AGI/ASI system. The credible next target is a stronger sandboxed
+automated-research scaffold:
 
 1. A proposer that can generate useful candidate changes.
 2. A real isolation boundary for any generated code.
@@ -201,4 +202,5 @@ A stronger successor to SRSI should be able to show:
 - human approval records for every authority expansion.
 
 That would be a serious automated-research harness. It would still not, by
-itself, be fully recursively self-improving AGI/ASI.
+itself, satisfy the long-term goal of a fully-recursive self-improving AGI/ASI
+system.

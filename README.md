@@ -19,23 +19,24 @@ the scaffold improves, the verifier is the ceiling.
 ## Project goal
 
 The long-term goal of this project is a **Fully-Recursive Self-Improving
-system**: a system that can safely improve not only task-level strategies, but
-also the machinery that proposes, tests, verifies, and promotes future
-improvements.
+AGI/ASI System**: a generally intelligent, and potentially superintelligent,
+system that can safely improve not only task-level strategies, but also the
+machinery that proposes, tests, verifies, and promotes future improvements.
 
-The current codebase is an integrity-first stepping stone toward that goal. It
-deliberately starts with bounded scaffold improvement, fixed trusted verifiers,
-held-out evaluation, and auditable lineage before attempting more recursive
-capabilities. The criteria for honestly claiming fully-recursive
-self-improvement are documented in
+The current codebase is an integrity-first stepping stone toward that AGI/ASI
+goal. It deliberately starts with bounded scaffold improvement, fixed trusted
+verifiers, held-out evaluation, and auditable lineage before attempting more
+recursive capabilities. The criteria for honestly claiming fully-recursive
+self-improvement, and eventually a fully-recursive self-improving AGI/ASI
+system, are documented in
 [`docs/fully-recursive-self-improvement.md`](docs/fully-recursive-self-improvement.md).
 
 The fact that open-ended model-level or weight-level recursive
 self-improvement has not yet been demonstrated is treated here as a research
 frontier, not as evidence that it cannot be done. The project's ambition is to
 support AGI/ASI-relevant research breakthroughs that test, and eventually may
-demonstrate, whether fully-recursive self-improvement can be made to work under
-independent verification and explicit control boundaries.
+demonstrate, whether a fully-recursive self-improving AGI/ASI system can be
+made to work under independent verification and explicit control boundaries.
 
 ## Why this design is honest
 

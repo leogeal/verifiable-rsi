@@ -1,28 +1,30 @@
-# Fully-Recursive Self-Improvement Criteria
+# Fully-Recursive Self-Improving AGI/ASI Criteria
 
-The long-term goal of SRSI is a Fully-Recursive Self-Improving system. SRSI is
-currently a bounded scaffold-improvement harness: it repeatedly improves task
-strategies, but the machinery that performs improvement is mostly fixed. To
-honestly call a future system "Fully-recursive Self-Improvement," it would need
-to improve the improver itself, not only the artifacts produced by the improver.
+The long-term goal of SRSI is a Fully-Recursive Self-Improving AGI/ASI System.
+SRSI is currently a bounded scaffold-improvement harness: it repeatedly
+improves task strategies, but the machinery that performs improvement is mostly
+fixed. To honestly call a future system a fully-recursive self-improving
+AGI/ASI system, it would need to improve the improver itself, not only the
+artifacts produced by the improver.
 
 This document defines the target and the engineering evidence required to claim
 progress toward it. The ordered implementation milestones are tracked in
 [`../ROADMAP.md`](../ROADMAP.md).
 
 The lack of a public verified demonstration of open-ended weight-level
-recursive self-improvement is not taken as proof that such a system cannot be
-built. It is one of the central open problems the project is intended to study.
-The goal is to make claims about that possibility only through measured,
-auditable breakthroughs rather than assumption or analogy.
+recursive self-improvement is not taken as proof that a fully-recursive
+self-improving AGI/ASI system cannot be built. It is one of the central open
+problems the project is intended to study. The goal is to make claims about
+that possibility only through measured, auditable breakthroughs rather than
+assumption or analogy.
 
 ## Working Definition
 
-Fully-recursive self-improvement means:
+For this project, fully-recursive self-improving AGI/ASI means:
 
-> A system can safely improve its own improvement machinery, demonstrate that
-> those changes generalize, and preserve independent verification while doing
-> so.
+> A generally intelligent, and potentially superintelligent, system can safely
+> improve its own improvement machinery, demonstrate that those changes
+> generalize, and preserve independent verification while doing so.
 
 The important word is "machinery." A loop that only tunes task-level parameters
 is recursive in a limited sense, but it is not fully recursive. A fully
@@ -216,9 +218,9 @@ The smallest credible milestone beyond current SRSI is:
 6. Proposed trusted-core changes are emitted only as review artifacts.
 7. A final report shows both promoted improvements and rejected failure modes.
 
-That would still not be AGI or ASI. It would, however, be a concrete move from
-parameter-level scaffold improvement toward recursively improving the
-improvement process itself.
+That would still not satisfy the long-term AGI/ASI goal. It would, however, be
+a concrete move from parameter-level scaffold improvement toward recursively
+improving the improvement process itself.
 
 ## Claim Standard
 
