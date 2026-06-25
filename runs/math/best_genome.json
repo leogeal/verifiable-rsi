@@ -1,0 +1,11 @@
+{
+  "domain": "math",
+  "generation": 4,
+  "genome_id": "7b439c10abe07e5e",
+  "notes": "set max_degree=4",
+  "params": {
+    "max_degree": 4,
+    "parsimony": true
+  },
+  "parent_id": "2eb03806723d117d"
+}

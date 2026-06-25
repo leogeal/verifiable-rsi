@@ -1,0 +1,85 @@
+{
+  "domain": "math",
+  "evidence_breakdown": {
+    "verified-symbolic": 9
+  },
+  "findings": [
+    {
+      "detail": "exact polynomial identity (degree 0)",
+      "evidence": 3,
+      "evidence_label": "verified-symbolic",
+      "statement": "const7: a(n) = 7",
+      "support": 0,
+      "verified": true
+    },
+    {
+      "detail": "exact polynomial identity (degree 3)",
+      "evidence": 3,
+      "evidence_label": "verified-symbolic",
+      "statement": "cubic_n3: a(n) = 1*n^3",
+      "support": 3,
+      "verified": true
+    },
+    {
+      "detail": "exact polynomial identity (degree 3)",
+      "evidence": 3,
+      "evidence_label": "verified-symbolic",
+      "statement": "cubic_shift: a(n) = -2*n + 1*n^3",
+      "support": 3,
+      "verified": true
+    },
+    {
+      "detail": "exact polynomial identity (degree 1)",
+      "evidence": 3,
+      "evidence_label": "verified-symbolic",
+      "statement": "linear_3n_2: a(n) = 2 + 3*n",
+      "support": 1,
+      "verified": true
+    },
+    {
+      "detail": "exact polynomial identity (degree 2)",
+      "evidence": 3,
+      "evidence_label": "verified-symbolic",
+      "statement": "quad_2n2_n_1: a(n) = 1 + -1*n + 2*n^2",
+      "support": 2,
+      "verified": true
+    },
+    {
+      "detail": "exact polynomial identity (degree 4)",
+      "evidence": 3,
+      "evidence_label": "verified-symbolic",
+      "statement": "quartic_n4: a(n) = 1*n^4",
+      "support": 4,
+      "verified": true
+    },
+    {
+      "detail": "exact polynomial identity (degree 2)",
+      "evidence": 3,
+      "evidence_label": "verified-symbolic",
+      "statement": "triangular: a(n) = 1/2*n + 1/2*n^2",
+      "support": 2,
+      "verified": true
+    },
+    {
+      "detail": "exact polynomial identity (degree 2)",
+      "evidence": 3,
+      "evidence_label": "verified-symbolic",
+      "statement": "squares: a(n) = 1*n^2",
+      "support": 2,
+      "verified": true
+    },
+    {
+      "detail": "exact polynomial identity (degree 4)",
+      "evidence": 3,
+      "evidence_label": "verified-symbolic",
+      "statement": "sum_cubes: a(n) = 1/4*n^2 + 1/2*n^3 + 1/4*n^4",
+      "support": 4,
+      "verified": true
+    }
+  ],
+  "unsolved": [
+    "factorial",
+    "fibonacci",
+    "pow2"
+  ]
+}

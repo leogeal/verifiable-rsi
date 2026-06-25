@@ -1,0 +1,248 @@
+{
+  "best_genome": {
+    "domain": "theorem",
+    "generation": 3,
+    "genome_id": "fb83d0f9e83abf30",
+    "notes": "set use_sos=False",
+    "params": {
+      "max_len": 3,
+      "trust_self_report": false,
+      "use_sos": false,
+      "w_age": 0.0,
+      "w_len": 0.5
+    },
+    "parent_id": "af6dc1f3ca533976"
+  },
+  "best_holdout": {
+    "accuracy": 1.0,
+    "fitness": 0.993917,
+    "integrity_violations": 0,
+    "mean_cost": 2.5,
+    "total": 2,
+    "verified": 2
+  },
+  "best_selection": {
+    "accuracy": 1.0,
+    "fitness": 0.993513,
+    "integrity_violations": 0,
+    "mean_cost": 14.6,
+    "total": 5,
+    "verified": 5
+  },
+  "counters": {
+    "candidates_evaluated": 25,
+    "promotions": 3,
+    "rejected_holdout_regress": 0,
+    "rejected_integrity": 1,
+    "rejected_no_gain": 18,
+    "rejected_structure": 0
+  },
+  "created_at": "2026-06-10T19:32:39.879021+00:00",
+  "domain": "theorem",
+  "evidence_breakdown": {
+    "proved": 7
+  },
+  "findings": [
+    {
+      "detail": "kernel-verified resolution refutation (13 steps)",
+      "evidence": 4,
+      "evidence_label": "proved",
+      "statement": "UNSAT(all3)",
+      "support": 13,
+      "verified": true
+    },
+    {
+      "detail": "kernel-verified resolution refutation (13 steps)",
+      "evidence": 4,
+      "evidence_label": "proved",
+      "statement": "UNSAT(all3b)",
+      "support": 13,
+      "verified": true
+    },
+    {
+      "detail": "kernel-verified resolution refutation (42 steps)",
+      "evidence": 4,
+      "evidence_label": "proved",
+      "statement": "UNSAT(all4)",
+      "support": 42,
+      "verified": true
+    },
+    {
+      "detail": "kernel-verified resolution refutation (3 steps)",
+      "evidence": 4,
+      "evidence_label": "proved",
+      "statement": "UNSAT(chain3)",
+      "support": 3,
+      "verified": true
+    },
+    {
+      "detail": "kernel-verified resolution refutation (2 steps)",
+      "evidence": 4,
+      "evidence_label": "proved",
+      "statement": "UNSAT(php_2_1)",
+      "support": 2,
+      "verified": true
+    },
+    {
+      "detail": "kernel-verified resolution refutation (4 steps)",
+      "evidence": 4,
+      "evidence_label": "proved",
+      "statement": "UNSAT(all2)",
+      "support": 4,
+      "verified": true
+    },
+    {
+      "detail": "kernel-verified resolution refutation (1 steps)",
+      "evidence": 4,
+      "evidence_label": "proved",
+      "statement": "UNSAT(unit_contradiction)",
+      "support": 1,
+      "verified": true
+    }
+  ],
+  "integrity_events": [
+    {
+      "change": "trust_self_report=True",
+      "genome_id": "cb4e21a67bc549ef",
+      "iteration": 1,
+      "reason": "integrity violation: 1 instance(s) claimed a success the verifier rejected"
+    }
+  ],
+  "protected_fingerprint": "35c611218c03180ad6e703b73b046d690e96362ace442b31a398b8258027748e",
+  "records": [
+    {
+      "accepted": true,
+      "candidate_id": "df0258c752194f93",
+      "change": "max_len=3",
+      "holdout": {
+        "accuracy": 1.0,
+        "fitness": 0.9939,
+        "integrity_violations": 0,
+        "mean_cost": 3.0,
+        "total": 2,
+        "verified": 2
+      },
+      "iteration": 1,
+      "overfit": {
+        "gap": 0.0,
+        "holdout_score": 1.0,
+        "is_overfit": false,
+        "selection_score": 1.0
+      },
+      "parent_id": "13d974decf99a688",
+      "prev_hash": "",
+      "reasons": [
+        "rejected this generation: structure=0 integrity=1 holdout_regress=0 no_gain=1"
+      ],
+      "record_hash": "2580940a68496a910e25599d7ed20dcc",
+      "selection": {
+        "accuracy": 1.0,
+        "fitness": 0.99328,
+        "integrity_violations": 0,
+        "mean_cost": 21.6,
+        "total": 5,
+        "verified": 5
+      }
+    },
+    {
+      "accepted": true,
+      "candidate_id": "af6dc1f3ca533976",
+      "change": "w_len=0.5",
+      "holdout": {
+        "accuracy": 1.0,
+        "fitness": 0.993917,
+        "integrity_violations": 0,
+        "mean_cost": 2.5,
+        "total": 2,
+        "verified": 2
+      },
+      "iteration": 2,
+      "overfit": {
+        "gap": 0.0,
+        "holdout_score": 1.0,
+        "is_overfit": false,
+        "selection_score": 1.0
+      },
+      "parent_id": "df0258c752194f93",
+      "prev_hash": "2580940a68496a910e25599d7ed20dcc",
+      "reasons": [
+        "rejected this generation: structure=0 integrity=0 holdout_regress=0 no_gain=4"
+      ],
+      "record_hash": "09a85333b8b8ba99dd58de4812a6c177",
+      "selection": {
+        "accuracy": 1.0,
+        "fitness": 0.993407,
+        "integrity_violations": 0,
+        "mean_cost": 17.8,
+        "total": 5,
+        "verified": 5
+      }
+    },
+    {
+      "accepted": true,
+      "candidate_id": "fb83d0f9e83abf30",
+      "change": "use_sos=False",
+      "holdout": {
+        "accuracy": 1.0,
+        "fitness": 0.993917,
+        "integrity_violations": 0,
+        "mean_cost": 2.5,
+        "total": 2,
+        "verified": 2
+      },
+      "iteration": 3,
+      "overfit": {
+        "gap": 0.0,
+        "holdout_score": 1.0,
+        "is_overfit": false,
+        "selection_score": 1.0
+      },
+      "parent_id": "af6dc1f3ca533976",
+      "prev_hash": "09a85333b8b8ba99dd58de4812a6c177",
+      "reasons": [
+        "rejected this generation: structure=0 integrity=0 holdout_regress=0 no_gain=6"
+      ],
+      "record_hash": "9b26528cf51ab3872316c91b0393b9e0",
+      "selection": {
+        "accuracy": 1.0,
+        "fitness": 0.993513,
+        "integrity_violations": 0,
+        "mean_cost": 14.6,
+        "total": 5,
+        "verified": 5
+      }
+    },
+    {
+      "accepted": false,
+      "candidate_id": null,
+      "change": null,
+      "holdout": {
+        "accuracy": 1.0,
+        "fitness": 0.993917,
+        "integrity_violations": 0,
+        "mean_cost": 2.5,
+        "total": 2,
+        "verified": 2
+      },
+      "iteration": 4,
+      "overfit": null,
+      "parent_id": "fb83d0f9e83abf30",
+      "prev_hash": "9b26528cf51ab3872316c91b0393b9e0",
+      "reasons": [
+        "converged: no candidate passed the integrity, overfit, and promotion gates",
+        "rejected this generation: structure=0 integrity=0 holdout_regress=0 no_gain=7"
+      ],
+      "record_hash": "f547fef2ee9e3de7be526a2bb5d53ff2",
+      "selection": {
+        "accuracy": 1.0,
+        "fitness": 0.993513,
+        "integrity_violations": 0,
+        "mean_cost": 14.6,
+        "total": 5,
+        "verified": 5
+      }
+    }
+  ],
+  "stopped_reason": "converged: no candidate passed the integrity, overfit, and promotion gates",
+  "unsolved": []
+}

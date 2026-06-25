@@ -1,0 +1,292 @@
+{
+  "best_genome": {
+    "domain": "math",
+    "generation": 4,
+    "genome_id": "7b439c10abe07e5e",
+    "notes": "set max_degree=4",
+    "params": {
+      "max_degree": 4,
+      "parsimony": true
+    },
+    "parent_id": "2eb03806723d117d"
+  },
+  "best_holdout": {
+    "accuracy": 0.666667,
+    "fitness": 0.658533,
+    "integrity_violations": 0,
+    "mean_cost": 4.0,
+    "total": 3,
+    "verified": 2
+  },
+  "best_selection": {
+    "accuracy": 0.777778,
+    "fitness": 0.769673,
+    "integrity_violations": 0,
+    "mean_cost": 3.143,
+    "total": 9,
+    "verified": 7
+  },
+  "counters": {
+    "candidates_evaluated": 14,
+    "promotions": 4,
+    "rejected_holdout_regress": 5,
+    "rejected_integrity": 0,
+    "rejected_no_gain": 5,
+    "rejected_structure": 0
+  },
+  "created_at": "2026-06-10T19:32:40.007206+00:00",
+  "domain": "math",
+  "evidence_breakdown": {
+    "verified-symbolic": 9
+  },
+  "findings": [
+    {
+      "detail": "exact polynomial identity (degree 0)",
+      "evidence": 3,
+      "evidence_label": "verified-symbolic",
+      "statement": "const7: a(n) = 7",
+      "support": 0,
+      "verified": true
+    },
+    {
+      "detail": "exact polynomial identity (degree 3)",
+      "evidence": 3,
+      "evidence_label": "verified-symbolic",
+      "statement": "cubic_n3: a(n) = 1*n^3",
+      "support": 3,
+      "verified": true
+    },
+    {
+      "detail": "exact polynomial identity (degree 3)",
+      "evidence": 3,
+      "evidence_label": "verified-symbolic",
+      "statement": "cubic_shift: a(n) = -2*n + 1*n^3",
+      "support": 3,
+      "verified": true
+    },
+    {
+      "detail": "exact polynomial identity (degree 1)",
+      "evidence": 3,
+      "evidence_label": "verified-symbolic",
+      "statement": "linear_3n_2: a(n) = 2 + 3*n",
+      "support": 1,
+      "verified": true
+    },
+    {
+      "detail": "exact polynomial identity (degree 2)",
+      "evidence": 3,
+      "evidence_label": "verified-symbolic",
+      "statement": "quad_2n2_n_1: a(n) = 1 + -1*n + 2*n^2",
+      "support": 2,
+      "verified": true
+    },
+    {
+      "detail": "exact polynomial identity (degree 4)",
+      "evidence": 3,
+      "evidence_label": "verified-symbolic",
+      "statement": "quartic_n4: a(n) = 1*n^4",
+      "support": 4,
+      "verified": true
+    },
+    {
+      "detail": "exact polynomial identity (degree 2)",
+      "evidence": 3,
+      "evidence_label": "verified-symbolic",
+      "statement": "triangular: a(n) = 1/2*n + 1/2*n^2",
+      "support": 2,
+      "verified": true
+    },
+    {
+      "detail": "exact polynomial identity (degree 2)",
+      "evidence": 3,
+      "evidence_label": "verified-symbolic",
+      "statement": "squares: a(n) = 1*n^2",
+      "support": 2,
+      "verified": true
+    },
+    {
+      "detail": "exact polynomial identity (degree 4)",
+      "evidence": 3,
+      "evidence_label": "verified-symbolic",
+      "statement": "sum_cubes: a(n) = 1/4*n^2 + 1/2*n^3 + 1/4*n^4",
+      "support": 4,
+      "verified": true
+    }
+  ],
+  "integrity_events": [],
+  "protected_fingerprint": "35c611218c03180ad6e703b73b046d690e96362ace442b31a398b8258027748e",
+  "records": [
+    {
+      "accepted": true,
+      "candidate_id": "6f61b375bd684a7b",
+      "change": "max_degree=1",
+      "holdout": {
+        "accuracy": 0.0,
+        "fitness": -0.002,
+        "integrity_violations": 0,
+        "mean_cost": 0.0,
+        "total": 3,
+        "verified": 0
+      },
+      "iteration": 1,
+      "overfit": {
+        "gap": 0.222222,
+        "holdout_score": 0.0,
+        "is_overfit": false,
+        "selection_score": 0.222222
+      },
+      "parent_id": "bad03395a126bbfc",
+      "prev_hash": "",
+      "reasons": [
+        "rejected this generation: structure=0 integrity=0 holdout_regress=0 no_gain=1"
+      ],
+      "record_hash": "39b64997574fd1b7772bcf292ac3ed36",
+      "selection": {
+        "accuracy": 0.222222,
+        "fitness": 0.220172,
+        "integrity_violations": 0,
+        "mean_cost": 1.5,
+        "total": 9,
+        "verified": 2
+      }
+    },
+    {
+      "accepted": true,
+      "candidate_id": "97426c4b2e1f6faf",
+      "change": "max_degree=2",
+      "holdout": {
+        "accuracy": 0.333333,
+        "fitness": 0.329233,
+        "integrity_violations": 0,
+        "mean_cost": 3.0,
+        "total": 3,
+        "verified": 1
+      },
+      "iteration": 2,
+      "overfit": {
+        "gap": 0.111111,
+        "holdout_score": 0.333333,
+        "is_overfit": false,
+        "selection_score": 0.444444
+      },
+      "parent_id": "6f61b375bd684a7b",
+      "prev_hash": "39b64997574fd1b7772bcf292ac3ed36",
+      "reasons": [
+        "rejected this generation: structure=0 integrity=0 holdout_regress=0 no_gain=2"
+      ],
+      "record_hash": "670c2cf69c5eb119eeee816a69a2fa3b",
+      "selection": {
+        "accuracy": 0.444444,
+        "fitness": 0.440369,
+        "integrity_violations": 0,
+        "mean_cost": 2.25,
+        "total": 9,
+        "verified": 4
+      }
+    },
+    {
+      "accepted": true,
+      "candidate_id": "2eb03806723d117d",
+      "change": "max_degree=3",
+      "holdout": {
+        "accuracy": 0.333333,
+        "fitness": 0.327233,
+        "integrity_violations": 0,
+        "mean_cost": 3.0,
+        "total": 3,
+        "verified": 1
+      },
+      "iteration": 3,
+      "overfit": {
+        "gap": 0.333333,
+        "holdout_score": 0.333333,
+        "is_overfit": true,
+        "selection_score": 0.666667
+      },
+      "parent_id": "97426c4b2e1f6faf",
+      "prev_hash": "670c2cf69c5eb119eeee816a69a2fa3b",
+      "reasons": [
+        "rejected this generation: structure=0 integrity=0 holdout_regress=2 no_gain=0"
+      ],
+      "record_hash": "03921c42ac0cdeff9fc17351d99bfc4f",
+      "selection": {
+        "accuracy": 0.666667,
+        "fitness": 0.660572,
+        "integrity_violations": 0,
+        "mean_cost": 2.833,
+        "total": 9,
+        "verified": 6
+      }
+    },
+    {
+      "accepted": true,
+      "candidate_id": "7b439c10abe07e5e",
+      "change": "max_degree=4",
+      "holdout": {
+        "accuracy": 0.666667,
+        "fitness": 0.658533,
+        "integrity_violations": 0,
+        "mean_cost": 4.0,
+        "total": 3,
+        "verified": 2
+      },
+      "iteration": 4,
+      "overfit": {
+        "gap": 0.111111,
+        "holdout_score": 0.666667,
+        "is_overfit": false,
+        "selection_score": 0.777778
+      },
+      "parent_id": "2eb03806723d117d",
+      "prev_hash": "03921c42ac0cdeff9fc17351d99bfc4f",
+      "reasons": [
+        "rejected this generation: structure=0 integrity=0 holdout_regress=1 no_gain=1"
+      ],
+      "record_hash": "5aae4aa0a6a6b7b3e134cf506ce797d7",
+      "selection": {
+        "accuracy": 0.777778,
+        "fitness": 0.769673,
+        "integrity_violations": 0,
+        "mean_cost": 3.143,
+        "total": 9,
+        "verified": 7
+      }
+    },
+    {
+      "accepted": false,
+      "candidate_id": null,
+      "change": null,
+      "holdout": {
+        "accuracy": 0.666667,
+        "fitness": 0.658533,
+        "integrity_violations": 0,
+        "mean_cost": 4.0,
+        "total": 3,
+        "verified": 2
+      },
+      "iteration": 5,
+      "overfit": null,
+      "parent_id": "7b439c10abe07e5e",
+      "prev_hash": "5aae4aa0a6a6b7b3e134cf506ce797d7",
+      "reasons": [
+        "converged: no candidate passed the integrity, overfit, and promotion gates",
+        "rejected this generation: structure=0 integrity=0 holdout_regress=2 no_gain=1"
+      ],
+      "record_hash": "b0cb0852a86671303cae56669390c2d1",
+      "selection": {
+        "accuracy": 0.777778,
+        "fitness": 0.769673,
+        "integrity_violations": 0,
+        "mean_cost": 3.143,
+        "total": 9,
+        "verified": 7
+      }
+    }
+  ],
+  "stopped_reason": "converged: no candidate passed the integrity, overfit, and promotion gates",
+  "unsolved": [
+    "factorial",
+    "fibonacci",
+    "pow2"
+  ]
+}

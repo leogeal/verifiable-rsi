@@ -1,0 +1,65 @@
+{
+  "domain": "theorem",
+  "evidence_breakdown": {
+    "proved": 7
+  },
+  "findings": [
+    {
+      "detail": "kernel-verified resolution refutation (13 steps)",
+      "evidence": 4,
+      "evidence_label": "proved",
+      "statement": "UNSAT(all3)",
+      "support": 13,
+      "verified": true
+    },
+    {
+      "detail": "kernel-verified resolution refutation (13 steps)",
+      "evidence": 4,
+      "evidence_label": "proved",
+      "statement": "UNSAT(all3b)",
+      "support": 13,
+      "verified": true
+    },
+    {
+      "detail": "kernel-verified resolution refutation (42 steps)",
+      "evidence": 4,
+      "evidence_label": "proved",
+      "statement": "UNSAT(all4)",
+      "support": 42,
+      "verified": true
+    },
+    {
+      "detail": "kernel-verified resolution refutation (3 steps)",
+      "evidence": 4,
+      "evidence_label": "proved",
+      "statement": "UNSAT(chain3)",
+      "support": 3,
+      "verified": true
+    },
+    {
+      "detail": "kernel-verified resolution refutation (2 steps)",
+      "evidence": 4,
+      "evidence_label": "proved",
+      "statement": "UNSAT(php_2_1)",
+      "support": 2,
+      "verified": true
+    },
+    {
+      "detail": "kernel-verified resolution refutation (4 steps)",
+      "evidence": 4,
+      "evidence_label": "proved",
+      "statement": "UNSAT(all2)",
+      "support": 4,
+      "verified": true
+    },
+    {
+      "detail": "kernel-verified resolution refutation (1 steps)",
+      "evidence": 4,
+      "evidence_label": "proved",
+      "statement": "UNSAT(unit_contradiction)",
+      "support": 1,
+      "verified": true
+    }
+  ],
+  "unsolved": []
+}

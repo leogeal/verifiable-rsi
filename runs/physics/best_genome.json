@@ -1,0 +1,14 @@
+{
+  "domain": "physics",
+  "generation": 1,
+  "genome_id": "0cb17abf0bb64566",
+  "notes": "set candidate_features=('x2', 'v2', 'h')",
+  "params": {
+    "candidate_features": [
+      "x2",
+      "v2",
+      "h"
+    ]
+  },
+  "parent_id": "45419d5e00819b38"
+}

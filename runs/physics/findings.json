@@ -1,0 +1,57 @@
+{
+  "domain": "physics",
+  "evidence_breakdown": {
+    "empirical": 6
+  },
+  "findings": [
+    {
+      "detail": "constant across 2 held-out trajectories (fixed tol 1e-06)",
+      "evidence": 2,
+      "evidence_label": "empirical",
+      "statement": "freefall_fast: conserved v2 + (7.4)*h  [quantity [L^2 T^-2]; coefficient dimension [L^1 T^-2]]",
+      "support": 48,
+      "verified": true
+    },
+    {
+      "detail": "constant across 2 held-out trajectories (fixed tol 1e-06)",
+      "evidence": 2,
+      "evidence_label": "empirical",
+      "statement": "oscillator_heavy: conserved x2 + (2)*v2  [quantity [L^2]; coefficient dimension [T^2]]",
+      "support": 48,
+      "verified": true
+    },
+    {
+      "detail": "constant across 2 held-out trajectories (fixed tol 1e-06)",
+      "evidence": 2,
+      "evidence_label": "empirical",
+      "statement": "oscillator_unit: conserved x2 + (1)*v2  [quantity [L^2]; coefficient dimension [T^2]]",
+      "support": 48,
+      "verified": true
+    },
+    {
+      "detail": "constant across 2 held-out trajectories (fixed tol 1e-06)",
+      "evidence": 2,
+      "evidence_label": "empirical",
+      "statement": "freefall_moon: conserved v2 + (3.2)*h  [quantity [L^2 T^-2]; coefficient dimension [L^1 T^-2]]",
+      "support": 48,
+      "verified": true
+    },
+    {
+      "detail": "constant across 2 held-out trajectories (fixed tol 1e-06)",
+      "evidence": 2,
+      "evidence_label": "empirical",
+      "statement": "freefall_slow: conserved v2 + (19.6)*h  [quantity [L^2 T^-2]; coefficient dimension [L^1 T^-2]]",
+      "support": 48,
+      "verified": true
+    },
+    {
+      "detail": "constant across 2 held-out trajectories (fixed tol 1e-06)",
+      "evidence": 2,
+      "evidence_label": "empirical",
+      "statement": "oscillator_light: conserved x2 + (0.5)*v2  [quantity [L^2]; coefficient dimension [T^2]]",
+      "support": 48,
+      "verified": true
+    }
+  ],
+  "unsolved": []
+}

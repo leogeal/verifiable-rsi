@@ -1,0 +1,14 @@
+{
+  "domain": "theorem",
+  "generation": 3,
+  "genome_id": "fb83d0f9e83abf30",
+  "notes": "set use_sos=False",
+  "params": {
+    "max_len": 3,
+    "trust_self_report": false,
+    "use_sos": false,
+    "w_age": 0.0,
+    "w_len": 0.5
+  },
+  "parent_id": "af6dc1f3ca533976"
+}
